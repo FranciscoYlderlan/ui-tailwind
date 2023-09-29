@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link"
-import {usePathname, activeHref} from 'next/navigation'
+import { usePathname } from 'next/navigation'
 interface NavLinkProps {
     children: string
     href: string
