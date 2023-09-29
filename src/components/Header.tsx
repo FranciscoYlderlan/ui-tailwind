@@ -2,7 +2,7 @@ import { Search, Moon } from 'lucide-react'
 
 export function Header() {
     return (
-    <header className="fixed top-0 left-80 right-0 px-8 py-3 border-b border-white/10 backdrop-blur 
+    <header className="fixed top-0 lg:left-80 right-0 px-8 py-3 border-b border-white/10 backdrop-blur 
     flex itens-center justify-between">
         <button className='w-full max-w-md flex items-center text-xs text-zinc-400 bg-white/5
         gap-3 px-3 h-8 border border-white/10 rounded-full'>
