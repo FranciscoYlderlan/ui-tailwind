@@ -11,13 +11,13 @@ export function Sidebar() {
                         Guides
                     </strong>
                     <div className="text-sm flex flex-col pl-2">
-                    <NavLink>Introduction</NavLink>
-                    <NavLink>Quick Start</NavLink>
-                    <NavLink>SDKs</NavLink>
-                    <NavLink>Authentication</NavLink>
-                    <NavLink>Pagination</NavLink>
-                    <NavLink>Errors</NavLink>
-                    <NavLink>Webhooks</NavLink>
+                    <NavLink href="/test/a">Introduction</NavLink>
+                    <NavLink href="/test/b">Quick Start</NavLink>
+                    <NavLink href="/test/c">SDKs</NavLink>
+                    <NavLink href="/test/d">Authentication</NavLink>
+                    <NavLink href="/test/e">Pagination</NavLink>
+                    <NavLink href="/test/f">Errors</NavLink>
+                    <NavLink href="/test/g">Webhooks</NavLink>
                     </div>
                 </div>
                 <div className="flex flex-col gap-4">
@@ -25,11 +25,11 @@ export function Sidebar() {
                         Resources
                     </strong>
                     <div className="text-sm flex flex-col pl-2">
-                    <NavLink>Contacts</NavLink>
-                    <NavLink>Conversations</NavLink>
-                    <NavLink>Messages</NavLink>
-                    <NavLink>Groups</NavLink>
-                    <NavLink>Attachments</NavLink>
+                    <NavLink href="/test/h">Contacts</NavLink>
+                    <NavLink href="/test/i">Conversations</NavLink>
+                    <NavLink href="/test/j">Messages</NavLink>
+                    <NavLink href="/test/k">Groups</NavLink>
+                    <NavLink href="/test/l">Attachments</NavLink>
 
                     </div>
                 </div>
